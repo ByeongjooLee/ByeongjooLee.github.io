@@ -81,3 +81,4 @@ His research interests lie in **Literary Criticism**, **Modern Literature**, and
   <br> 이소라 노랫말에 나타난 수동성과 쓸쓸함의 정서 (대중음악)
 * *Factors Influencing First-Year Cadet Dropout Intention* (2023)
   <br> 공군사관학교 1학년 생도의 중도 탈락 의도에 미치는 영향 요인 (한국군사학논집)
+  ---
