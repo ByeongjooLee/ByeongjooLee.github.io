@@ -47,10 +47,35 @@ education:
       (문학박사)
     institution: |
       Korea University Graduate School
-      <\n>(고려대학교 대학원)
+      (고려대학교 대학원)
     date_start: 2017-03-01
     date_end: 2025-08-31
     summary: |
+      Dissertation:
+      A Study on the Formation Process and Performativity of Critical Discourse in the 1950s and 1960s
+      1950~60년대 비평 담론의 형성 과정과 수행성 연구
+
+  - area: |
+      M.A. in Korean Language and Literature
+      (문학석사)
+    institution: |
+      Korea University Graduate School
+      (고려대학교 대학원)
+    date_start: 2015-03-01
+    date_end: 2017-02-28
+    summary: |
+      Master's Thesis:
+      김규동 시론 연구
+
+  - area: |
+      B.A. in Korean Language and Literature
+      (문학사)
+    institution: |
+      Myongji University
+      (명지대학교)
+    date_start: 2011-03-01
+    date_end: 2015-02-28
+
       Dissertation:
       A Study on the Formation Process and Performativity of Critical Discourse in the 1950s and 1960s
 교 박사학위논문)
