@@ -63,6 +63,7 @@ His research interests lie in **Literary Criticism**, **Modern Literature**, and
 **Ph.D. Dissertation (박사학위논문)**
 * *A Study on the Formation Process and Performativity of Critical Discourse in the 1950s and 1960s* (2025)
   <br> **1950~60년대 비평 담론의 형성 과정과 수행성 연구 : 언어·주체·담론 구조를 중심으로** (고려대학교 대학원 박사학위논문)
+  <br> [👉 RISS Link](https://www.riss.kr/link?id=T17283186)
 
 **Literary Criticism and Poetics (문학비평 및 시론)**
 * *A Study on Kim Gyudong’s Poetics* (Master’s Thesis, Korea University)
@@ -70,7 +71,7 @@ His research interests lie in **Literary Criticism**, **Modern Literature**, and
 * *Conversion and Humanism: Focusing on the Writings of Park Yeong-jun after Liberation* (2021)
   <br> 전향과 휴머니즘: 해방 후 박영준의 글쓰기를 중심으로 (한국현대문학비평연구)
 * *A Comparative Study on the Concept of 'East' and 'Purity'* (2020)
-  <br> 『시의 원리』와 『시학평전』에 나타난 '동양'과 '순수' 인식의 비교 (한국언어문학)
+  <br> 『시의 원리』와 『시론·평전』에 나타난 '동양'과 '순수' 개념 비교 연구 (어문논집)
 
 **Digital Humanities (디지털 인문학)**
 * *A Textual and Discourse Analysis of Post-Liberation Poetics Using Text Mining* (PI, 2023–2026)
@@ -78,6 +79,6 @@ His research interests lie in **Literary Criticism**, **Modern Literature**, and
 
 **Popular Culture & Education (대중문화 및 교육)**
 * *Passivity and Loneliness in Lee So-ra's Lyrics* (2023)
-  <br> 이소라 노랫말에 나타난 수동성과 외로움 (대중음악)
+  <br> 이소라 노랫말에 나타난 수동성과 쓸쓸함의 정서 (대중음악)
 * *Factors Influencing First-Year Cadet Dropout Intention* (2023)
   <br> 공군사관학교 1학년 생도의 중도 탈락 의도에 미치는 영향 요인 (한국군사학논집)
