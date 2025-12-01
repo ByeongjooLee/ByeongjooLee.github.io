@@ -25,7 +25,7 @@ bio: |
   at the Korea Air Force Academy. My research interests include literary criticism,
   modern Korean poetry, digital humanities, and popular culture.
   공군사관학교 어문문학과 조교수로 재직 중이며,
-  현대문학 비평, 시론, 디지털 인문학, 대중문화를 중심으로 연구하고 있습니다.
+  현대문학 비평, 시론(詩論), 디지털 인문학, 대중문화를 중심으로 연구하고 있습니다.
 
 # Contact / Social profiles
 profiles:
@@ -113,14 +113,14 @@ which investigates post-liberation poetics by combining close reading with compu
 저는 2023년부터 2026년까지 진행 중인  
 「텍스트 마이닝을 이용한 해방기 시론 텍스트의 어휘 및 담론 분석」 과제의 연구책임자로서,  
 해방기 시론 텍스트를 데이터로 구축하고,
-어휘·담론 분석을 통해 시론의 사상적·미학적 특성을 규명하고 있습니다.
+담론 분석을 통해 시론의 사상적·미학적 특성을 규명하고 있습니다.
 
 My Ph.D. dissertation,  
 **“A Study on the Formation Process and Performativity of Critical Discourse in the 1950s and 1960s” (2025)**,  
 examines how literary criticism in postwar Korea constructed modernity through the interplay of language, subject, and discourse.
 
 박사학위논문 「1950~60년대 비평 담론의 형성 과정과 수행성 연구 – 언어·주체·담론 구조를 중심으로」에서는  
-전후 한국 문학비평이 언어·주체·담론의 삼중 구조를 통해 근대성과 비평의 윤리를 어떻게 구성했는지를 분석합니다.  
+전후 한국 문학비평가들이 현대성과 비평가로서의 정체성 그리고 비평 담론을 어떻게 형성했는지를 분석했습니다.  
 
 You can find the dissertation via RISS:  
 [Dissertation on RISS](https://www.riss.kr/link?id=T17283186)
@@ -130,13 +130,13 @@ You can find the dissertation via RISS:
 ## Selected Publications in Literary Criticism and Poetics
 
 - *A Study on Kim Gyudong’s Poetics* (M.A. thesis, Korea University)  
-  김규동 시론을 중심으로 전후 시론의 사상적·미학적 성격을 고찰한 연구입니다.
+  김규동 시론 연구 (고려대학교 석사학위논문)
 
 - *Conversion and Humanism: Focusing on the Writings of Park Yeong-jun after Liberation* (2021)  
-  전향과 휴머니즘이라는 개념을 통해 해방기 박영준의 글쓰기를 분석한 논문입니다.
+  전향과 휴머니즘: 해방 후 박영준의 글쓰기를 중심으로 (한국현대문학비평연구)
 
 - *A Comparative Study on the Concept of “East” and “Purity”* (2020)  
-  『시의 원리』와 『시론·평전』에 나타난 ‘동양’과 ‘순수’ 개념을 비교 분석한 연구입니다.
+  『시의 원리』와 『시론·평전』에 나타난 '동양'과 '순수' 인식의 비교 (어문논집)
 
 ---
 
@@ -154,10 +154,10 @@ I build TEI-XML–based corpora of modern Korean literary criticism and explore 
 Beyond literary criticism, I also work on popular culture and educational research.
 
 - *Passivity and Loneliness in Lee So-ra’s Lyrics* (2023)  
-  이소라 노랫말에 나타난 수동성과 외로움의 정서를 분석한 논문
+  이소라 노랫말에 나타난 수동성과 외로 (대중음악)
 
 - *Factors Influencing First-Year Cadet Dropout Intention* (2023)  
-  공군사관학교 1학년 생도의 중도 탈락 의도에 영향을 미치는 요인을 탐색한 연구
+  공군사관학교 1학년 생도의 중도 탈락 의도에 미치는 영향 요인 (한국군사학논집)
 
 Through these projects, I aim to connect literary studies, digital methods, and educational practice in a way that remains attentive to language, subjectivity, and discourse.
 
