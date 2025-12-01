@@ -94,10 +94,10 @@ work:
 
 ---
 
-I am an Assistant Professor in the Department of Korean Language and Literature at the Korea Air Force Academy (since 2020).  
+I am an Assistant Professor in the Department of Language and Literature at the Korea Air Force Academy (since 2020).  
 My research focuses on modern Korean literary criticism, poetics, and digital humanities, with a particular interest in how critical discourse is formed and performed in the 1950s–60s.
 
-현재 공군사관학교 국어국문학과 조교수로 재직 중이며,  
+현재 공군사관학교 어문학과 조교수로 재직 중이며,  
 한국 문학비평을 주로 연구하고 있습니다.  
 텍스트 마이닝, 네트워크 분석 등 디지털 인문학 방법론을 활용하여 비평 텍스트를 데이터로 구축하고,
 비평 언어의 수행성을 분석하는 데 관심을 두고 있습니다.
@@ -158,7 +158,3 @@ Beyond literary criticism, I also work on popular culture and educational resear
 
 - *Factors Influencing First-Year Cadet Dropout Intention* (2023)  
   공군사관학교 1학년 생도의 중도 탈락 의도에 미치는 영향 요인 (한국군사학논집)
-
-Through these projects, I aim to connect literary studies, digital methods, and educational practice in a way that remains attentive to language, subjectivity, and discourse.
-
-
