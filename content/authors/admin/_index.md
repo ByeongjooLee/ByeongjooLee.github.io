@@ -17,9 +17,9 @@ role: "Assistant Professor (조교수)"
 
 # Affiliation
 organizations:
-  - name: "Korea Air Force Academy<br>(공군사관학교)"
-    url: ""
-    role: "Department of Korean Language and Literature<br>(국어국문학과)"
+  - name: "Korea Air Force Academy<(공군사관학교)"
+    url: "https://rokaf.airforce.mil.kr/afa/1505/subview.do"
+    role: "Department of Language and Literature(어문학과)"
 
 # Short bio
 bio: "My research interests include Literary Criticism, Digital Humanities, and Popular Culture.<br>(문학비평, 디지털 인문학, 대중문화)"
@@ -27,7 +27,7 @@ bio: "My research interests include Literary Criticism, Digital Humanities, and 
 # Contact / Social profiles (아이콘 에러 방지 구조)
 profiles:
   - icon: at-symbol
-    url: "mailto:byeongjoolee@example.com"
+    url: "bj3632@afa.ac.kr"
     label: "Email"
   - icon: brands/github
     url: "https://github.com/ByeongjooLee"
@@ -53,7 +53,7 @@ education:
     summary: |
       Dissertation:
       A Study on the Formation Process and Performativity of Critical Discourse in the 1950s and 1960s
-교 석사학위논문)
+교 박사학위논문)
 * *Conversion and Humanism: Focusing on the Writings of Park Yeong-jun after Liberation* (2021)  
   전향자로서 자기 증명과 휴머니즘 - 해방이후 박영준의 글을 중심으로
 * *A Comparative Study on the Concept of 'East' and 'Purity'* (2020)  
