@@ -13,11 +13,11 @@ hugoblox:
   # ────────────────────────────────────────────────────────────────────────────
   branding:
     # Display name shown in navbar and general site display
-    name: "Your Name"
+    name: "Byeongjoo Lee"
     # Optional: Browser tab title (defaults to name if not set)
-    # site_title: "Your Name | Research"
+    # site_title: "Byeongjoo Lee | Research"
     # Optional: Legal/copyright entity (defaults to name if not set)
-    # organization: "Your Full Legal Name"
+    # organization: "Byeongjoo Lee"
 
   # ────────────────────────────────────────────────────────────────────────────
   # THEME
