@@ -37,9 +37,6 @@ education:
       institution: Myongji University (명지대학교)
       year: 2015
 
-# Social/Academic Networking (에러 방지를 위해 비워둠)
-social: []
-
 highlight_name: true
 ---
 
