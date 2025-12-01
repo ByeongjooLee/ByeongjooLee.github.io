@@ -37,17 +37,8 @@ education:
       institution: Myongji University (명지대학교)
       year: 2015
 
-# Social/Academic Networking
-social:
-  - icon: envelope
-    icon_pack: fas
-    link: 'mailto:bj3632@gmail.com'
-  - icon: graduation-cap
-    icon_pack: fas
-    link: https://scholar.google.co.kr/
-  - icon: github
-    icon_pack: fab
-    link: https://github.com/ByeongjooLee
+# Social/Academic Networking (일단 비워둠)
+social: []
 
 highlight_name: true
 ---
@@ -63,7 +54,6 @@ His research interests lie in **Literary Criticism**, **Modern Literature**, and
 **Ph.D. Dissertation (박사학위논문)**
 * *A Study on the Formation Process and Performativity of Critical Discourse in the 1950s and 1960s* (2025)
   <br> **1950~60년대 비평 담론의 형성 과정과 수행성 연구 : 언어·주체·담론 구조를 중심으로** (고려대학교 대학원 박사학위논문)
-  <br> [👉 RISS Link](https://www.riss.kr/link?id=T17283186)
 
 **Literary Criticism and Poetics (문학비평 및 시론)**
 * *A Study on Kim Gyudong’s Poetics* (Master’s Thesis, Korea University)
