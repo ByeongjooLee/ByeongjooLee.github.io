@@ -53,7 +53,7 @@ highlight_name: true
 ---
 
 **Byeongjoo Lee (이병주)** is an **Assistant Professor** in the Department of Korean Language and Literature at the **Korea Air Force Academy** (2020.2 – Present).
-이병주는 현재 **공군사관학교 국어국문학과 조교수**로 재직 중입니다.
+현재 **공군사관학교 국어국문학과 조교수**로 재직 중입니다.
 
 His research interests lie in **Literary Criticism**, **Modern Literature**, and **Digital Humanities**. He is currently conducting research on post-liberation poetics using text mining techniques as a Principal Investigator (PI).
 주요 연구 분야는 **현대문학 비평**, **시론**, 그리고 **디지털 인문학**입니다. 현재 연구책임자(PI)로서 텍스트 마이닝 기법을 활용한 해방기 시론 연구를 수행하고 있습니다.
