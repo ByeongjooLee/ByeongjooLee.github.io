@@ -147,6 +147,8 @@ I build TEI-XML–based corpora of modern Korean literary criticism and explore 
 디지털 인문학 영역에서는 현대문학비평 텍스트를 TEI-XML 형식으로 데이터화하고,  
 키워드 분석, 네트워크 분석 등과 결합하여 비평 텍스트의 관계망과 개념 구조를 시각화하는 연구를 수행하고 있습니다.
 
+Constructing and Utilizing XML Data for Korean Modern Literary Criticism : A Methodological Approach to Digital Humanities Research
+현대문학비평 XML 데이터 구축과 활용 방안 ― 디지털 인문학 연구를 위한 방법론 모색(한시학연구)
 ---
 
 ## Popular Culture and Education
