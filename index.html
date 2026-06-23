@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>이병주 Byeongjoo Lee</title>
+<meta name="description" content="이병주 (Byeongjoo Lee) — 공군사관학교 국어과 조교수. 현대문학 비평·시론, 디지털 인문학 연구.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#1a1a1a;
+    --muted:#6b6b6b;
+    --faint:#9a9a9a;
+    --line:#e7e7e7;
+    --link:#1f5fb0;
+    --badge-bg:#eef2fb;
+    --badge-ink:#27509a;
+  }
+  *{box-sizing:border-box;}
+  html{-webkit-text-size-adjust:100%;}
+  body{
+    font-family:"Noto Sans KR","Apple SD Gothic Neo","Malgun Gothic",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+    color:var(--ink);
+    background:#fff;
+    line-height:1.72;
+    font-size:17px;
+    margin:0;
+  }
+  .wrap{max-width:720px;margin:0 auto;padding:56px 22px 80px;}
+  a{color:var(--link);text-decoration:none;}
+  a:hover{text-decoration:underline;}
+
+  /* Header */
+  header{display:flex;gap:22px;align-items:center;}
+  header img{width:96px;height:96px;border-radius:50%;object-fit:cover;flex-shrink:0;border:1px solid var(--line);}
+  .name{font-size:27px;font-weight:700;line-height:1.25;margin:0;}
+  .name .en{font-weight:400;color:var(--muted);font-size:20px;}
+  .role{margin:4px 0 0;color:var(--ink);}
+  .role .en{display:block;color:var(--muted);font-size:14px;}
+
+  /* Quick links */
+  .links{display:flex;flex-wrap:wrap;gap:8px;margin:20px 0 8px;}
+  .links a{
+    display:inline-flex;align-items:center;gap:6px;
+    font-size:13.5px;color:var(--ink);
+    border:1px solid var(--line);border-radius:7px;padding:5px 11px;
+  }
+  .links a:hover{border-color:#c9c9c9;text-decoration:none;background:#fafafa;}
+
+  /* Bio */
+  .bio{margin:18px 0 2px;}
+  .bio p{margin:0 0 8px;}
+  .tags{color:var(--muted);font-size:14px;}
+  .tags span{margin-right:12px;white-space:nowrap;}
+
+  /* Sections */
+  h2{
+    font-size:16px;font-weight:700;letter-spacing:.02em;
+    margin:42px 0 14px;padding-bottom:7px;border-bottom:1px solid var(--line);
+  }
+  .entry{margin-bottom:16px;}
+  .row{display:flex;justify-content:space-between;gap:16px;align-items:baseline;}
+  .row .t{font-weight:500;}
+  .row .d{color:var(--faint);font-size:14px;white-space:nowrap;}
+  .sub{color:var(--muted);font-size:14.5px;margin-top:1px;}
+  .sub.it{font-style:normal;}
+
+  /* Publications */
+  ol.pubs{list-style:none;counter-reset:p;margin:0;padding:0;}
+  ol.pubs li{position:relative;padding-left:26px;margin-bottom:14px;}
+  ol.pubs li:before{
+    counter-increment:p;content:counter(p);
+    position:absolute;left:0;top:.1em;color:var(--faint);font-size:13px;
+  }
+  .venue{color:var(--muted);}
+  .yr{color:var(--faint);}
+  .badge{
+    display:inline-block;font-size:11.5px;line-height:1.5;
+    background:var(--badge-bg);color:var(--badge-ink);
+    border-radius:4px;padding:0 6px;margin-left:5px;vertical-align:1px;
+  }
+  .ptype{font-size:13px;color:var(--faint);margin:18px 0 8px;font-weight:500;letter-spacing:.03em;text-transform:uppercase;}
+  .ptype:first-of-type{margin-top:4px;}
+
+  footer{margin-top:48px;padding-top:18px;border-top:1px solid var(--line);color:var(--faint);font-size:13.5px;}
+
+  @media (max-width:560px){
+    body{font-size:16px;}
+    .wrap{padding:40px 18px 64px;}
+    header{gap:16px;}
+    header img{width:78px;height:78px;}
+    .name{font-size:23px;}
+    .name .en{font-size:17px;}
+    .row{flex-direction:column;}
+    .row .d{font-size:13px;}
+  }
+</style>
+</head>
+<body>
+<main class="wrap">
+
+  <header>
+    <img src="photo.jpg" alt="이병주 증명사진">
+    <div>
+      <h1 class="name">이병주 <span class="en">Byeongjoo Lee</span></h1>
+      <p class="role">조교수 · 공군사관학교 국어과
+        <span class="en">Assistant Professor, Dept. of Korean Language &amp; Literature, Korea Air Force Academy</span>
+      </p>
+    </div>
+  </header>
+
+  <nav class="links">
+    <a href="mailto:bj3632@afa.ac.kr">✉ Email</a>
+    <a href="https://github.com/ByeongjooLee" target="_blank" rel="noopener">GitHub</a>
+    <a href="https://www.riss.kr/link?id=T17283186" target="_blank" rel="noopener">박사학위논문 (RISS)</a>
+    <a href="cv.pdf" target="_blank" rel="noopener">CV (PDF)</a>
+  </nav>
+
+  <section class="bio">
+    <p>현대문학 비평과 시론(詩論), 디지털 인문학을 연구합니다. 텍스트 마이닝·네트워크 분석 등 디지털 인문학 방법론으로 비평 텍스트를 데이터로 구축하고, 비평 언어의 수행성을 분석하는 데 관심을 두고 있습니다.</p>
+    <p style="color:var(--muted);font-size:15px;">I am an Assistant Professor in the Department of Korean Language and Literature at the Korea Air Force Academy. My research focuses on modern Korean literary criticism, poetics, and digital humanities — particularly how critical discourse is formed and performed in postwar Korea.</p>
+    <div class="tags">
+      <span>#문학비평</span><span>#시론</span><span>#디지털인문학</span><span>#한국현대문학</span><span>#대중문화</span>
+    </div>
+  </section>
+
+  <h2>Education</h2>
+  <div class="entry">
+    <div class="row"><span class="t">문학박사, 국어국문학 · 고려대학교 대학원</span><span class="d">2017 – 2025</span></div>
+    <div class="sub">학위논문: 「1950~60년대 비평 담론의 형성 과정과 수행성 연구 — 언어·주체·담론 구조를 중심으로」</div>
+  </div>
+  <div class="entry">
+    <div class="row"><span class="t">문학석사, 국어국문학 · 고려대학교 대학원</span><span class="d">2015 – 2017</span></div>
+    <div class="sub">학위논문: 「김규동 시론 연구」</div>
+  </div>
+  <div class="entry">
+    <div class="row"><span class="t">문학사, 국어국문학 · 명지대학교</span><span class="d">2011 – 2015</span></div>
+  </div>
+
+  <h2>Experience</h2>
+  <div class="entry">
+    <div class="row"><span class="t">조교수 · 공군사관학교 국어과</span><span class="d">2020 – 현재</span></div>
+    <div class="sub">현대문학·문학비평·글쓰기 교과 담당. 디지털 인문학 방법론을 접목한 비평 담론 연구 수행.</div>
+  </div>
+
+  <h2>Publications</h2>
+
+  <div class="ptype">Journal Articles</div>
+  <ol class="pubs">
+    <li>현대문학비평 XML 데이터 구축과 활용 방안 — 디지털 인문학 연구를 위한 방법론 모색.
+      <span class="venue">한국시학연구</span>, <span class="yr">2025</span>. <span class="badge">KCI</span></li>
+    <li>미디어 리터러시와 디지털 리터러시의 통합 수업 설계 모형 개발 및 적용 — 사례를 중심으로.
+      <span class="venue">리터러시연구</span>. <span class="badge">KCI</span></li>
+    <li>이소라 노랫말에 나타난 수동성과 외로움.
+      <span class="venue">대중음악</span>, <span class="yr">2023</span>.</li>
+    <li>공군사관학교 1학년 생도의 중도 탈락 의도에 미치는 영향 요인.
+      <span class="venue">한국군사학논집</span>, <span class="yr">2023</span>. <span class="badge">KCI</span></li>
+    <li>전향과 휴머니즘 — 해방 후 박영준의 글쓰기를 중심으로.
+      <span class="yr">2021</span>.</li>
+    <li>『시의 원리』와 『시론·평전』에 나타난 '동양'과 '순수' 인식의 비교.
+      <span class="venue">어문논집</span>, <span class="yr">2020</span>. <span class="badge">KCI</span></li>
+  </ol>
+
+  <div class="ptype">Theses</div>
+  <ol class="pubs">
+    <li>1950~60년대 비평 담론의 형성 과정과 수행성 연구 — 언어·주체·담론 구조를 중심으로.
+      <span class="venue">고려대학교 박사학위논문</span>, <span class="yr">2025</span>.
+      <a href="https://www.riss.kr/link?id=T17283186" target="_blank" rel="noopener">RISS</a></li>
+    <li>김규동 시론 연구.
+      <span class="venue">고려대학교 석사학위논문</span>, <span class="yr">2017</span>.</li>
+  </ol>
+
+  <h2>Research Projects</h2>
+  <div class="entry">
+    <div class="row"><span class="t">텍스트 마이닝을 이용한 해방기 시론 텍스트의 어휘 및 담론 분석</span><span class="d">2023 – 2026</span></div>
+    <div class="sub">연구책임자 (PI). 해방기 시론 텍스트를 데이터로 구축하고 담론 분석을 통해 시론의 사상적·미학적 특성을 규명.</div>
+  </div>
+
+  <h2>Digital Humanities Projects</h2>
+  <div class="entry">
+    <div class="row"><span class="t"><a href="https://github.com/ByeongjooLee/korean-critique-schema" target="_blank" rel="noopener">korean-critique-schema</a></span></div>
+    <div class="sub">현대문학비평 텍스트의 TEI-XML 데이터 구축 및 스키마 설계.</div>
+  </div>
+  <div class="entry">
+    <div class="row"><span class="t"><a href="https://github.com/ByeongjooLee/The-Topology-of-Power" target="_blank" rel="noopener">The Topology of Power</a></span></div>
+    <div class="sub">한국 문학비평장(1960–1990)의 정전 형성과 지식 네트워크에 대한 데이터 기반 분석.</div>
+  </div>
+  <div class="entry">
+    <div class="row"><span class="t"><a href="https://github.com/ByeongjooLee/hwang-hieonsann-critique" target="_blank" rel="noopener">hwang-hieonsann-critique</a></span></div>
+    <div class="sub">비평가 황현산(1945–2018) 비평 텍스트의 구조화된 XML 데이터 구축.</div>
+  </div>
+  <div class="entry">
+    <div class="row"><span class="t"><a href="https://github.com/ByeongjooLee/kcritic.kr" target="_blank" rel="noopener">kcritic.kr</a></span></div>
+    <div class="sub">한국 비평사 온톨로지.</div>
+  </div>
+
+  <footer>
+    © <span id="yr">2026</span> 이병주 Byeongjoo Lee · <a href="mailto:bj3632@afa.ac.kr">bj3632@afa.ac.kr</a>
+  </footer>
+
+</main>
+<script>document.getElementById('yr').textContent=new Date().getFullYear();</script>
+</body>
+</html>
