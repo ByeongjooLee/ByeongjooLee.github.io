@@ -1,0 +1,111 @@
+:root{
+  --ink:#1a1a1a;
+  --muted:#6b6b6b;
+  --faint:#9a9a9a;
+  --line:#e7e7e7;
+  --link:#1f5fb0;
+  --badge-bg:#eef2fb;
+  --badge-ink:#27509a;
+}
+*{box-sizing:border-box;}
+html{-webkit-text-size-adjust:100%;}
+body{
+  font-family:"Noto Sans KR","Apple SD Gothic Neo","Malgun Gothic",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+  color:var(--ink);
+  background:#fff;
+  line-height:1.72;
+  font-size:17px;
+  margin:0;
+}
+.wrap{max-width:740px;margin:0 auto;padding:40px 22px 80px;}
+a{color:var(--link);text-decoration:none;}
+a:hover{text-decoration:underline;}
+
+/* Top bar: tabs + language */
+.topbar{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-bottom:26px;font-size:14px;flex-wrap:wrap;}
+.tabs a{margin-right:16px;color:var(--muted);padding-bottom:3px;}
+.tabs a:hover{text-decoration:none;color:var(--ink);}
+.tabs a.on{color:var(--ink);font-weight:500;border-bottom:2px solid var(--ink);}
+.lang a{color:var(--muted);}
+.lang .on{color:var(--ink);font-weight:500;}
+.lang .sep{color:var(--line);margin:0 6px;}
+
+/* Header */
+header{display:flex;gap:22px;align-items:center;}
+header img{width:96px;height:96px;border-radius:50%;object-fit:cover;flex-shrink:0;border:1px solid var(--line);}
+.name{font-size:27px;font-weight:700;line-height:1.25;margin:0;}
+.name .en{font-weight:400;color:var(--muted);font-size:20px;}
+.role{margin:5px 0 0;color:var(--ink);}
+.role .en{display:block;color:var(--muted);font-size:14px;margin-top:1px;}
+
+/* Quick links */
+.links{display:flex;flex-wrap:wrap;gap:8px;margin:20px 0 8px;}
+.links a{
+  display:inline-flex;align-items:center;gap:6px;
+  font-size:13.5px;color:var(--ink);
+  border:1px solid var(--line);border-radius:7px;padding:5px 11px;
+}
+.links a:hover{border-color:#c9c9c9;text-decoration:none;background:#fafafa;}
+
+/* Bio */
+.bio{margin:18px 0 2px;}
+.bio p{margin:0 0 8px;}
+.tags{color:var(--muted);font-size:14px;}
+.tags span{margin-right:12px;white-space:nowrap;}
+
+/* Sections */
+h2{
+  font-size:16px;font-weight:700;letter-spacing:.02em;
+  margin:42px 0 14px;padding-bottom:7px;border-bottom:1px solid var(--line);
+}
+.entry{margin-bottom:15px;}
+.row{display:flex;justify-content:space-between;gap:16px;align-items:baseline;}
+.row .t{font-weight:500;}
+.row .d{color:var(--faint);font-size:14px;white-space:nowrap;}
+.sub{color:var(--muted);font-size:14.5px;margin-top:1px;}
+
+/* Publications */
+.ptype{font-size:13.5px;color:var(--muted);margin:20px 0 8px;font-weight:500;letter-spacing:.02em;}
+.ptype:first-of-type{margin-top:4px;}
+ol.pubs{list-style:none;counter-reset:p;margin:0;padding:0;}
+ol.pubs li{position:relative;padding-left:26px;margin-bottom:13px;}
+ol.pubs li:before{
+  counter-increment:p;content:counter(p);
+  position:absolute;left:0;top:.1em;color:var(--faint);font-size:13px;
+}
+.venue{color:var(--muted);}
+.yr{color:var(--faint);}
+.co{color:var(--faint);font-size:13px;}
+.badge{
+  display:inline-block;font-size:11.5px;line-height:1.5;
+  background:var(--badge-bg);color:var(--badge-ink);
+  border-radius:4px;padding:0 6px;margin-left:5px;vertical-align:1px;
+}
+
+/* Teaching chart */
+.chart-scroll{overflow-x:auto;margin-top:8px;}
+.chart-scroll svg{min-width:560px;width:100%;height:auto;display:block;}
+.legend{display:flex;flex-wrap:wrap;gap:6px 18px;margin-top:12px;font-size:13px;color:var(--muted);}
+.legend i{display:inline-block;width:12px;height:12px;border-radius:3px;margin-right:6px;vertical-align:-1px;border:1px solid rgba(0,0,0,.15);}
+.cap{font-size:12.5px;color:var(--faint);margin-top:8px;}
+
+/* Gallery */
+.gallery{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:14px;margin-top:12px;}
+.gallery figure{margin:0;}
+.gallery img{width:100%;height:190px;object-fit:cover;border-radius:9px;border:1px solid var(--line);display:block;background:#f4f4f4;}
+.gallery figcaption{font-size:13px;color:var(--muted);margin-top:7px;line-height:1.5;}
+.empty{color:var(--faint);font-size:14.5px;border:1px dashed #d8d8d8;border-radius:10px;padding:30px 24px;text-align:center;margin-top:12px;}
+
+footer{margin-top:48px;padding-top:18px;border-top:1px solid var(--line);color:var(--faint);font-size:13.5px;}
+
+@media (max-width:560px){
+  body{font-size:16px;}
+  .wrap{padding:30px 18px 64px;}
+  header{gap:16px;}
+  header img{width:78px;height:78px;}
+  .name{font-size:23px;}
+  .name .en{font-size:17px;}
+  .row{flex-direction:column;}
+  .row .d{font-size:13px;}
+  .gallery img{height:160px;}
+}

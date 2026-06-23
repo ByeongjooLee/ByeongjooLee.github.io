@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>활동 · 이병주 Byeongjoo Lee</title>
+<meta name="description" content="이병주 (Byeongjoo Lee) — 강의·발표·학술 활동 사진.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<main class="wrap">
+
+  <div class="topbar">
+    <nav class="tabs">
+      <a href="/">이력</a>
+      <a class="on" href="/gallery.html">활동</a>
+    </nav>
+    <div class="lang"><span class="on">한국어</span><span class="sep">·</span><a href="/en/gallery.html">English</a></div>
+  </div>
+
+  <h1 class="name" style="font-size:24px;">활동 <span class="en">Activities</span></h1>
+  <p class="sub" style="margin-top:6px;">강의·학술 발표·연구 활동 사진을 모았습니다.</p>
+
+  <div class="gallery">
+    <!-- 사진 추가 방법: activities/ 폴더에 이미지를 넣고 아래 형식으로 한 칸씩 추가하세요.
+    <figure>
+      <img src="/activities/example.jpg" alt="설명">
+      <figcaption>행사명 · 장소 · 2025</figcaption>
+    </figure>
+    -->
+  </div>
+
+  <div class="empty" id="empty">
+    아직 등록된 사진이 없습니다. <br>
+    <span style="font-size:13px;">사진은 <code>activities/</code> 폴더에 올린 뒤 이 페이지에 추가할 수 있어요.</span>
+  </div>
+
+  <footer>
+    © <span id="yr">2026</span> 이병주 Byeongjoo Lee · <a href="mailto:bj3632@gmail.com">bj3632@gmail.com</a>
+  </footer>
+
+</main>
+<script>
+  document.getElementById('yr').textContent=new Date().getFullYear();
+  var g=document.querySelector('.gallery');
+  if(g && g.querySelector('figure')) document.getElementById('empty').style.display='none';
+</script>
+</body>
+</html>

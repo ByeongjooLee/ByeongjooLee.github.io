@@ -8,110 +8,21 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
-<style>
-  :root{
-    --ink:#1a1a1a;
-    --muted:#6b6b6b;
-    --faint:#9a9a9a;
-    --line:#e7e7e7;
-    --link:#1f5fb0;
-    --badge-bg:#eef2fb;
-    --badge-ink:#27509a;
-  }
-  *{box-sizing:border-box;}
-  html{-webkit-text-size-adjust:100%;}
-  body{
-    font-family:"Noto Sans KR","Apple SD Gothic Neo","Malgun Gothic",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
-    color:var(--ink);
-    background:#fff;
-    line-height:1.72;
-    font-size:17px;
-    margin:0;
-  }
-  .wrap{max-width:740px;margin:0 auto;padding:56px 22px 80px;}
-  a{color:var(--link);text-decoration:none;}
-  a:hover{text-decoration:underline;}
-
-  /* Header */
-  header{display:flex;gap:22px;align-items:center;}
-  header img{width:96px;height:96px;border-radius:50%;object-fit:cover;flex-shrink:0;border:1px solid var(--line);}
-  .name{font-size:27px;font-weight:700;line-height:1.25;margin:0;}
-  .name .en{font-weight:400;color:var(--muted);font-size:20px;}
-  .role{margin:5px 0 0;color:var(--ink);}
-  .role .en{display:block;color:var(--muted);font-size:14px;margin-top:1px;}
-
-  /* Quick links */
-  .links{display:flex;flex-wrap:wrap;gap:8px;margin:20px 0 8px;}
-  .links a{
-    display:inline-flex;align-items:center;gap:6px;
-    font-size:13.5px;color:var(--ink);
-    border:1px solid var(--line);border-radius:7px;padding:5px 11px;
-  }
-  .links a:hover{border-color:#c9c9c9;text-decoration:none;background:#fafafa;}
-
-  /* Bio */
-  .bio{margin:18px 0 2px;}
-  .bio p{margin:0 0 8px;}
-  .tags{color:var(--muted);font-size:14px;}
-  .tags span{margin-right:12px;white-space:nowrap;}
-
-  /* Sections */
-  h2{
-    font-size:16px;font-weight:700;letter-spacing:.02em;
-    margin:42px 0 14px;padding-bottom:7px;border-bottom:1px solid var(--line);
-  }
-  .entry{margin-bottom:15px;}
-  .row{display:flex;justify-content:space-between;gap:16px;align-items:baseline;}
-  .row .t{font-weight:500;}
-  .row .d{color:var(--faint);font-size:14px;white-space:nowrap;}
-  .sub{color:var(--muted);font-size:14.5px;margin-top:1px;}
-
-  /* Publications */
-  .ptype{font-size:13.5px;color:var(--muted);margin:20px 0 8px;font-weight:500;letter-spacing:.02em;}
-  .ptype:first-of-type{margin-top:4px;}
-  ol.pubs{list-style:none;counter-reset:p;margin:0;padding:0;}
-  ol.pubs li{position:relative;padding-left:26px;margin-bottom:13px;}
-  ol.pubs li:before{
-    counter-increment:p;content:counter(p);
-    position:absolute;left:0;top:.1em;color:var(--faint);font-size:13px;
-  }
-  .venue{color:var(--muted);}
-  .yr{color:var(--faint);}
-  .co{color:var(--faint);font-size:13px;}
-  .badge{
-    display:inline-block;font-size:11.5px;line-height:1.5;
-    background:var(--badge-bg);color:var(--badge-ink);
-    border-radius:4px;padding:0 6px;margin-left:5px;vertical-align:1px;
-  }
-
-  /* Table (teaching) */
-  table{width:100%;border-collapse:collapse;font-size:14.5px;margin-top:4px;}
-  th,td{text-align:left;padding:7px 10px 7px 0;border-bottom:1px solid var(--line);vertical-align:top;}
-  th{color:var(--muted);font-weight:500;font-size:13px;border-bottom:1px solid #d8d8d8;}
-  td.c1{white-space:nowrap;color:var(--muted);width:96px;}
-  td.c2{white-space:nowrap;color:var(--faint);width:60px;}
-
-  footer{margin-top:48px;padding-top:18px;border-top:1px solid var(--line);color:var(--faint);font-size:13.5px;}
-
-  @media (max-width:560px){
-    body{font-size:16px;}
-    .wrap{padding:40px 18px 64px;}
-    header{gap:16px;}
-    header img{width:78px;height:78px;}
-    .name{font-size:23px;}
-    .name .en{font-size:17px;}
-    .row{flex-direction:column;}
-    .row .d{font-size:13px;}
-    table{font-size:13.5px;}
-    td.c1{width:auto;}
-  }
-</style>
+<link rel="stylesheet" href="/style.css">
 </head>
 <body>
 <main class="wrap">
 
+  <div class="topbar">
+    <nav class="tabs">
+      <a class="on" href="/">이력</a>
+      <a href="/gallery.html">활동</a>
+    </nav>
+    <div class="lang"><span class="on">한국어</span><span class="sep">·</span><a href="/en/">English</a></div>
+  </div>
+
   <header>
-    <img src="photo.jpg" alt="이병주 증명사진">
+    <img src="/photo.jpg" alt="이병주 증명사진">
     <div>
       <h1 class="name">이병주 <span class="en">Byeongjoo Lee</span></h1>
       <p class="role">조교수 · 어문학과장 · 공군사관학교
@@ -121,10 +32,10 @@
   </header>
 
   <nav class="links">
-    <a href="mailto:bj3632@afa.ac.kr">✉ Email</a>
+    <a href="mailto:bj3632@gmail.com">✉ Email</a>
     <a href="https://github.com/ByeongjooLee" target="_blank" rel="noopener">GitHub</a>
     <a href="https://www.riss.kr/link?id=T17283186" target="_blank" rel="noopener">박사학위논문 (RISS)</a>
-    <a href="cv.pdf" target="_blank" rel="noopener">CV (PDF)</a>
+    <a href="/cv.pdf" target="_blank" rel="noopener">CV (PDF)</a>
   </nav>
 
   <section class="bio">
@@ -176,12 +87,6 @@
       <span class="venue">한국시학연구</span>, <span class="yr">2025</span>. <span class="badge">KCI</span></li>
   </ol>
 
-  <div class="ptype">대중문화</div>
-  <ol class="pubs">
-    <li>이소라 노랫말의 '수동성'과 '외로움'.
-      <span class="venue">대중음악</span>, <span class="yr">2023</span>. <span class="badge">KCI</span></li>
-  </ol>
-
   <div class="ptype">문학·리터러시 교육</div>
   <ol class="pubs">
     <li>미디어 리터러시와 디지털 리터러시의 통합 수업 설계 모형 개발 및 적용.
@@ -190,6 +95,12 @@
       <span class="venue">한국군사학논집</span>, <span class="yr">2023</span>. <span class="badge">KCI</span> <span class="co">(공저)</span></li>
     <li>2021년도 공군사관학교 생도의 토론교육 인식과 교육성과의 상관관계 연구.
       <span class="venue">군사과학논집(대학논문집)</span>, <span class="yr">2022</span>. <span class="co">(공저)</span></li>
+  </ol>
+
+  <div class="ptype">대중문화</div>
+  <ol class="pubs">
+    <li>이소라 노랫말의 '수동성'과 '외로움'.
+      <span class="venue">대중음악</span>, <span class="yr">2023</span>. <span class="badge">KCI</span></li>
   </ol>
 
   <h2>Research Projects</h2>
@@ -203,27 +114,8 @@
   </div>
 
   <h2>Teaching</h2>
-  <p class="sub" style="margin:0 0 8px;">공군사관학교 · 대학작문, 문학개론, 커뮤니케이션, 교양글쓰기 등</p>
-  <table>
-    <thead><tr><th class="c1">학기</th><th class="c2">시수</th><th>강의 과목</th></tr></thead>
-    <tbody>
-      <tr><td class="c1">2026.3 –</td><td class="c2">6학점</td><td>교양글쓰기 (2)</td></tr>
-      <tr><td class="c1">2025.9 – 12</td><td class="c2">6학점</td><td>대학작문 (1), 커뮤니케이션 (1)</td></tr>
-      <tr><td class="c1">2025.3 – 6</td><td class="c2">6학점</td><td>대학작문 (1), 문학개론 (1)</td></tr>
-      <tr><td class="c1">2024.9 – 12</td><td class="c2">9학점</td><td>대학작문 (2), 문학개론 (1)</td></tr>
-      <tr><td class="c1">2024.3 – 6</td><td class="c2">9학점</td><td>대학작문 (2), 커뮤니케이션 (1)</td></tr>
-      <tr><td class="c1">2023.9 – 12</td><td class="c2">9학점</td><td>대학작문 (2), 문학개론 (1)</td></tr>
-      <tr><td class="c1">2023.3 – 6</td><td class="c2">9학점</td><td>대학작문 (2), 문학개론 (1)</td></tr>
-      <tr><td class="c1">2022.9 – 12</td><td class="c2">9학점</td><td>대학작문 (2), 문학개론 (1)</td></tr>
-      <tr><td class="c1">2022.3 – 6</td><td class="c2">9학점</td><td>대학작문 (2), 문학개론 (1)</td></tr>
-      <tr><td class="c1">2021.9 – 12</td><td class="c2">9학점</td><td>대학작문 (2), 문학개론 (1)</td></tr>
-      <tr><td class="c1">2021.3 – 6</td><td class="c2">9학점</td><td>대학작문 (2), 문학개론 (1)</td></tr>
-      <tr><td class="c1">2020.9 – 12</td><td class="c2">9학점</td><td>대학작문 (2), 인문학과 삶 (1)</td></tr>
-      <tr><td class="c1">2020.3 – 6</td><td class="c2">9학점</td><td>대학작문 (2), 대학작문 — 수탁 (1)</td></tr>
-      <tr><td class="c1">2019.9 – 12</td><td class="c2">9학점</td><td>대학작문 (2), 문학개론 (1)</td></tr>
-      <tr><td class="c1">2019.3 – 6</td><td class="c2">9학점</td><td>대학작문 (2), 커뮤니케이션 — 수탁 (1)</td></tr>
-    </tbody>
-  </table>
+  <p class="sub" style="margin:0 0 4px;">공군사관학교 · 2019–2026, 매 학기 6–9학점 강의</p>
+  <div id="teaching-chart" data-lang="ko"></div>
 
   <h2>Service</h2>
   <div class="entry">
@@ -264,10 +156,11 @@
   </div>
 
   <footer>
-    © <span id="yr">2026</span> 이병주 Byeongjoo Lee · <a href="mailto:bj3632@afa.ac.kr">bj3632@afa.ac.kr</a>
+    © <span id="yr">2026</span> 이병주 Byeongjoo Lee · <a href="mailto:bj3632@gmail.com">bj3632@gmail.com</a>
   </footer>
 
 </main>
+<script src="/teaching.js" defer></script>
 <script>document.getElementById('yr').textContent=new Date().getFullYear();</script>
 </body>
 </html>

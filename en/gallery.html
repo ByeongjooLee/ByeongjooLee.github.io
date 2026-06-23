@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Activities · Byeongjoo Lee 이병주</title>
+<meta name="description" content="Byeongjoo Lee — photos from teaching, talks, and research activities.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<main class="wrap">
+
+  <div class="topbar">
+    <nav class="tabs">
+      <a href="/en/">CV</a>
+      <a class="on" href="/en/gallery.html">Activities</a>
+    </nav>
+    <div class="lang"><a href="/gallery.html">한국어</a><span class="sep">·</span><span class="on">English</span></div>
+  </div>
+
+  <h1 class="name" style="font-size:24px;">Activities <span class="en">활동</span></h1>
+  <p class="sub" style="margin-top:6px;">Photos from teaching, academic talks, and research activities.</p>
+
+  <div class="gallery">
+    <!-- To add photos: put images in the activities/ folder and add one block each.
+    <figure>
+      <img src="/activities/example.jpg" alt="Description">
+      <figcaption>Event · Place · 2025</figcaption>
+    </figure>
+    -->
+  </div>
+
+  <div class="empty" id="empty">
+    No photos yet. <br>
+    <span style="font-size:13px;">Upload images to the <code>activities/</code> folder and add them here.</span>
+  </div>
+
+  <footer>
+    © <span id="yr">2026</span> Byeongjoo Lee 이병주 · <a href="mailto:bj3632@gmail.com">bj3632@gmail.com</a>
+  </footer>
+
+</main>
+<script>
+  document.getElementById('yr').textContent=new Date().getFullYear();
+  var g=document.querySelector('.gallery');
+  if(g && g.querySelector('figure')) document.getElementById('empty').style.display='none';
+</script>
+</body>
+</html>
