@@ -3,15 +3,16 @@
     W:    { ko: "글쓰기",        en: "Writing",              fill: "#dbe8f7", stroke: "#7aa9dd" },
     Lit:  { ko: "문학개론",      en: "Intro. to Literature", fill: "#d6efe6", stroke: "#5cc0a0" },
     Comm: { ko: "커뮤니케이션",  en: "Communication",        fill: "#f7e6c4", stroke: "#e3ab4f" },
+    KLE:  { ko: "한국어교육",    en: "Korean Lang. Education", fill: "#e1eecb", stroke: "#9cc55f" },
     Hum:  { ko: "인문학과 삶",   en: "Humanities & Life",    fill: "#e4e1f6", stroke: "#9a8fdc" }
   };
 
   // oldest -> newest (drawn left to right). u = sections taught that semester.
-  // 대학작문 + 교양글쓰기 = 글쓰기(W).
+  // 대학작문 + 교양글쓰기 = 글쓰기(W). 수탁 과목 = 한국어교육(KLE).
   var SEM = [
-    { y: "2019", u: ["W", "W", "Comm"] },
+    { y: "2019", u: ["W", "W", "KLE"] },
     { y: "2019", u: ["W", "W", "Lit"] },
-    { y: "2020", u: ["W", "W", "W"] },
+    { y: "2020", u: ["W", "W", "KLE"] },
     { y: "2020", u: ["W", "W", "Hum"] },
     { y: "2021", u: ["W", "W", "Lit"] },
     { y: "2021", u: ["W", "W", "Lit"] },
