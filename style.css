@@ -53,16 +53,6 @@ header img{width:120px;height:120px;border-radius:50%;object-fit:cover;flex-shri
 .tags{color:var(--muted);font-size:14px;}
 .tags span{margin-right:12px;white-space:nowrap;}
 
-/* Websites I run */
-.sites{margin-top:24px;}
-.sites-label{font-size:13px;color:var(--muted);margin-bottom:8px;}
-a.site{display:flex;align-items:center;gap:12px;border:1px solid var(--line);border-radius:9px;padding:11px 14px;color:var(--ink);}
-a.site:hover{border-color:#c9c9c9;background:#fafafa;text-decoration:none;}
-a.site .ico,a.site .arw{flex-shrink:0;color:var(--faint);display:block;}
-.site-body{flex:1;min-width:0;}
-.site-name{display:block;font-weight:500;color:var(--link);font-size:15px;line-height:1.45;}
-.site-desc{display:block;font-size:13.5px;color:var(--muted);line-height:1.5;}
-
 /* Sections */
 h2{
   font-size:16px;font-weight:700;letter-spacing:.02em;
