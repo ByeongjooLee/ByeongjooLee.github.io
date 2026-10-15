@@ -4,7 +4,8 @@
     Lit:  { ko: "문학개론",      en: "Intro. to Literature", fill: "#d6efe6", stroke: "#5cc0a0" },
     Comm: { ko: "커뮤니케이션",  en: "Communication",        fill: "#f7e6c4", stroke: "#e3ab4f" },
     KLE:  { ko: "한국어교육",    en: "Korean Lang. Education", fill: "#e1eecb", stroke: "#9cc55f" },
-    Hum:  { ko: "인문학과 삶",   en: "Humanities & Life",    fill: "#e4e1f6", stroke: "#9a8fdc" }
+    Hum:  { ko: "인문학과 삶",   en: "Humanities & Life",    fill: "#e4e1f6", stroke: "#9a8fdc" },
+    DL:   { ko: "디지털리터러시", en: "Digital Literacy",     fill: "#f7dbe3", stroke: "#db7a9b" }
   };
 
   // oldest -> newest (drawn left to right). u = sections taught that semester.
@@ -25,7 +26,7 @@
     { y: "2025", u: ["W", "Lit"] },
     { y: "2025", u: ["W", "Comm"] },
     { y: "2026", u: ["W", "W"] },
-    { y: "2026", u: ["W", "W", "Comm"] }
+    { y: "2026", u: ["W", "W", "DL"] }
   ];
 
   function stats(c) {
